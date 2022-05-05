@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "@engine/*": ["./src/engine/*"],
+            "@lib/*": ["./src/lib/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@models/*": ["./src/models/*"]
+        }
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.d.ts",
+        "**/*.hlsl",
+        "**/*.jpg"
+    ],
+    "exclude": [
+        "node_modules",
+        "tsconfig.json"
+    ]
+}
